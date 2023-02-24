@@ -26,4 +26,9 @@ describe('Login Success Test', () => {
 	it('should login into application', () => {
 		LoginPage.login(login_username, login_password)
 	})
+
+	it('should log out from application', () => {
+		NavBar.clickOnLogoutButton()
+		NavBar.displaySignInButton()
+	})
 })
