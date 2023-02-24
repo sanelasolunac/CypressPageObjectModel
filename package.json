@@ -1,0 +1,25 @@
+{
+  "name": "cypressframework",
+  "version": "1.0.0",
+  "description": "Automation Framework with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run-dashboard": "cypress run --record --key 02208fd5-e280-492a-871c-105bcf1ecbad",
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true"
+  },
+  "keywords": [
+    "Automation",
+    "Framework",
+    "Dashboard",
+    "Cypress"
+  ],
+  "author": "Sanela Solunac",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.12.1",
+    "cypress-image-snapshot": "^4.0.1",
+    "prettier": "^2.8.4"
+  }
+}
